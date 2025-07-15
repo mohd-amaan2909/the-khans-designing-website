@@ -1,0 +1,57 @@
+*{margin: 0;
+  padding: 0;
+  background-color: #0A0A0A;
+}
+.hero-section {
+    height: 100vh;
+    width: 100vw;
+    display: flex; 
+}
+.welcome-title{
+    height: 30rem;
+    width: 40rem;
+}
+.welcome{
+    display: inline-block;
+    color: #f8e1cb;
+    margin-top: 10rem;
+    font-size: 2rem;
+    margin-left: 5rem;
+}
+.title{
+    display: inline-block;
+    color:antiquewhite ;
+    font-size: 5rem;
+    margin-left: 5rem;
+    font-family:  'Playfair Display', 'Georgia', serif;
+    width: 5rem;
+}
+.main-photo{
+    background-color: white;
+    position: relative;
+    height: 17rem; 
+    width: 30rem;
+    position: absolute;
+    right: 10rem;
+    top: 11rem;
+    background-image: url(khansdesignmain.jpg);
+    background-size: contain;
+    border-radius: 2rem;
+}
+
+
+.main-photo::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(234, 203, 132);
+    z-index: -1;
+    padding: 10px;
+    border-radius: 2rem;
+    
+}
+
+
+
+
