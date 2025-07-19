@@ -41,7 +41,7 @@
 }
 .main-photo img:hover{
     transform: scale(1.03);
-    transition: all 1000ms ;
+    transition: transform 1s ease-in-out ;
 }
 .main-photo img{
     border-radius: 2rem;
@@ -49,18 +49,115 @@
     width: 29.75rem;
 }
 
-
-.main-photo::after{
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(234, 203, 132);
-    z-index: -1;
-    padding: 10px;
-    border-radius: 2rem;
+/* main-body */
+.main-body{
+    color: #e8d2b0;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
     
 }
+
+
+/* neon-sign-borad */
+.neon-sign-board{
+    
+    
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title-neon{
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    height: 3rem;
+    text-decoration:;
+}
+.info{
+    position: absolute;
+    left: 8rem;
+    text-align: center;
+    height: 3rem;
+    width: 80%;
+    color: rgb(247, 242, 236);
+    font-size: 0.75rem;
+}
+.autoshow{
+    animation: text-appear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 100vh;
+}
+@keyframes text-appear{
+    from{
+        opacity: o;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.photo-neon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15rem;
+    width: 60rem;
+    margin-top: 3rem;
+    border-radius: 2rem;
+}
+.img1{
+    height: 15rem;
+    width: 20rem;
+    background-image:url(wall-neon1.jpeg) ;
+    background-size: cover;
+    border-radius: 1rem;
+    position: absolute;
+    left: 25rem;
+    
+}
+.img2{
+    height: 15rem;
+    width: 20rem;
+    background-image:url(wall-neon2.webp) ;
+    background-size: cover;
+    border-radius: 1rem;
+    position: absolute;
+    left: 50rem;
+}
+
+
+/* neon-logo */
+.neon-logo{
+    height: 40rem;
+    width: 100%;
+    display:inline-block ;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title-neon-logo{
+    text-align: center;
+    font-size: 2rem;
+}
+.img-neon-logo{
+    
+    height: 25rem;
+    width: 50rem;
+    background-image:url(neon-logo-img.jpg) ;
+    background-size: cover;
+    border-radius: 2rem;
+    margin-left: 22.5rem;
+    
+} 
+.info-neon-logo{
+    text-align: center;
+    font-size: 0.75rem;
+    width: 80%;
+    position: absolute;
+    left: 10rem;
+    color: rgb(247, 242, 236);
+}
+
 
 
 
