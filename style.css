@@ -72,6 +72,22 @@
     height: 3rem;
     text-decoration:;
 }
+@keyframes text-appear{
+    from{
+        opacity: o;
+        clip-path: inset(100% 100% 0 0);
+    }
+    to{
+        opacity: 1;
+        clip-path: inset(0 0 0 0);
+    }
+}
+.title-neon, .info{
+    animation: text-appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 60%;
+}
+    
 .info{
     position: absolute;
     left: 8rem;
@@ -80,21 +96,6 @@
     width: 80%;
     color: rgb(247, 242, 236);
     font-size: 0.75rem;
-}
-.autoshow{
-    animation: text-appear both;
-    animation-timeline: view();
-    animation-range: entry 20% cover 100vh;
-}
-@keyframes text-appear{
-    from{
-        opacity: o;
-        transform: translateY(100px);
-    }
-    to{
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 .photo-neon{
     display: flex;
@@ -113,7 +114,22 @@
     border-radius: 1rem;
     position: absolute;
     left: 25rem;
-    
+}
+@keyframes photo-appear{
+    from{
+        opacity: 0;
+        scale: 0.3;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+.img1 , .img2{
+    animation: photo-appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
 }
 .img2{
     height: 15rem;
