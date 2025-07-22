@@ -41,7 +41,7 @@
 }
 .main-photo img:hover{
     transform: scale(1.03);
-    transition: transform 1s ease-out ;
+    transition: transform 1s ease-in-out ;
 }
 .main-photo img{
     border-radius: 2rem;
@@ -201,7 +201,7 @@
 /* high-end-design */
 
 .high-end-design{
-    height: 100vh;
+    height: 75vh;
     width: 100vw;
 }
 .title-high{
@@ -240,7 +240,7 @@
     transition: all 1s ease-in-out;
     animation: high-image linear;
     animation-timeline: view();
-    animation-range: entry 0 cover 60%g;
+    animation-range: entry 0 cover 60%;
 }
 .high-image-2{
     height: 20rem;
@@ -264,4 +264,35 @@
     }
 }
 
+/* quotes corner */
 
+.quotes-corner-title{
+    height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.quotes-corner-info{
+    height: 3rem;
+    width: 80%;
+    position: relative;
+    left: 10rem;
+    font-size: 0.75rem;
+    text-align: center;
+    color: rgb(247, 242, 236);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.quotes-corner-photo{
+    height: 20rem;
+    width: 40rem;
+    background-color: white;
+    position: relative;
+    left: 28rem;
+    border-radius: 2rem;
+    background-image: url(quotes-corner-photo.jpeg);
+    background-size: cover;
+    transition: all 1s ease-in-out;
+}
+.quotes-corner-photo:hover{
+    scale: 1.08;
+}
