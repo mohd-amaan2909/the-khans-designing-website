@@ -296,3 +296,52 @@
 .quotes-corner-photo:hover{
     scale: 1.08;
 }
+
+.super-hero-corner{
+    height: 20vh;
+    width: 100vw;
+}
+.super-hero-title{
+    height: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.super-hero-image{
+    height: 20rem;
+    width: 50rem;
+    position: relative;
+    left: 23rem;
+    /* background-color: white; */
+    display: flex;justify-content: space-evenly;
+    align-items: center;
+}
+
+.super-image-1{
+    height: 20rem;
+    width: 15rem;
+    background-image: url(super-image-1.jpg);
+    background-size: cover;
+    border-radius: 2rem;
+    transition: all 1s ease-in-out;
+}
+.super-image-2{
+    height: 20rem;
+    width: 15rem;
+    background-image: url(super-image-2.jpg) ;
+    background-size: cover;
+    border-radius: 2rem;
+    transition: all 1s ease-in-out;
+}
+.super-image-3{
+    height: 20rem;
+    width: 15rem;
+    background-image: url(super-image-3.jpg);
+    background-size: cover;
+    border-radius: 1rem;
+    transition: all 1s ease-in-out;
+}
+.super-image-1:hover, .super-image-2:hover, .super-image-3:hover{
+    scale: 1.08;
+    
+}
