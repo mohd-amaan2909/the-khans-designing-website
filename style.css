@@ -298,7 +298,7 @@
 }
 
 .super-hero-corner{
-    height: 20vh;
+    height: 70vh;
     width: 100vw;
 }
 .super-hero-title{
@@ -306,6 +306,7 @@
     text-align: center;
     font-size: 2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 2rem;
 }
 .super-hero-image{
     height: 20rem;
@@ -342,6 +343,60 @@
     transition: all 1s ease-in-out;
 }
 .super-image-1:hover, .super-image-2:hover, .super-image-3:hover{
+    scale: 1.08; 
+}
+
+/* bottle stand */
+.bottle-stand{
+    height: 70vh;
+    width: 100%;
+}
+.bottle-stand-title{
+    height: 3rem;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 2rem;
+}
+.bottle-stand-image{
+    height: 20rem;
+    width: 40rem;
+    position: relative;
+    left: 30rem;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottle-stand-image1{
+    height:18rem;
+    width: 18rem;
+    background-image: url(bottle-sign.jpg);
+    background-size:cover;
+   border-radius: 1rem; 
+   transition: all 0.3s ease-in-out;
+}
+.bottle-stand-image2{
+    height: 18rem;
+    width: 18rem;
+    background-image: url(club1.png);
+    background-size:cover;
+    border-radius: 1rem; 
+    background-color: rgb(10, 220, 235);
+    transition: all 0.3s ease-in-out;
+}
+.bottle-stand-info{
+    height: 12rem;
+    width: 80%;
+    position: relative;
+    left: 10rem;
+    color: rgb(247, 242, 236);
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 2rem;
+}
+.bottle-stand-image1:hover, .bottle-stand-image2:hover{
     scale: 1.08;
-    
 }
