@@ -41,7 +41,7 @@
 }
 .main-photo img:hover{
     transform: scale(1.03);
-    transition: transform 1s ease-in-out ;
+    transition: transform 0.3s ease-in-out ;
 }
 .main-photo img{
     border-radius: 2rem;
@@ -129,7 +129,7 @@
     animation: photo-appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
-    transition: all 1s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .img2{
     height: 15rem;
@@ -181,7 +181,7 @@
     background-size: cover;
     border-radius: 2rem;
     margin-left: 22.5rem;
-    transition: all 1s ease-in-out;
+    transition: all 0.3s ease-in-out;
 } 
 .img-neon-logo:hover{
     scale: 1.08;
@@ -237,7 +237,7 @@
     background-image: url(high-image-1.jpeg);
     background-size: cover;
     border-radius: 1rem;
-    transition: all 1s ease-in-out;
+    transition: all 0.3s ease-in-out;
     animation: high-image linear;
     animation-timeline: view();
     animation-range: entry 0 cover 60%;
@@ -248,7 +248,7 @@
     background-image: url(high-image-2.webp);
     background-size: cover;
     border-radius: 1rem;
-    transition: all 1s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .high-image-1:hover, .high-image-2:hover{
     scale: 1.08;
@@ -291,7 +291,7 @@
     border-radius: 2rem;
     background-image: url(quotes-corner-photo.jpeg);
     background-size: cover;
-    transition: all 1s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .quotes-corner-photo:hover{
     scale: 1.08;
@@ -324,7 +324,7 @@
     background-image: url(super-image-1.jpg);
     background-size: cover;
     border-radius: 2rem;
-    transition: all 1s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .super-image-2{
     height: 20rem;
@@ -332,7 +332,7 @@
     background-image: url(super-image-2.jpg) ;
     background-size: cover;
     border-radius: 2rem;
-    transition: all 1s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .super-image-3{
     height: 20rem;
@@ -340,7 +340,7 @@
     background-image: url(super-image-3.jpg);
     background-size: cover;
     border-radius: 1rem;
-    transition: all 1s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .super-image-1:hover, .super-image-2:hover, .super-image-3:hover{
     scale: 1.08; 
