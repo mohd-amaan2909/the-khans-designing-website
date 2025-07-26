@@ -400,3 +400,24 @@
 .bottle-stand-image1:hover, .bottle-stand-image2:hover{
     scale: 1.08;
 }
+
+/* birthday gifts */
+.birthday{
+    height: 70vh;
+    width: 100%;
+}
+.birthday-title{
+    height: 3rem;
+    width: 100%;
+    /* position: relative;
+    left: 42rem; */
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 2rem;
+}
+.birthday-info{
+    height: 3rem;
+    width: 100%;
+    text-align: center;
+}
