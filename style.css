@@ -546,3 +546,56 @@
 .house1:hover, .house2:hover, .house3:hover, .house4:hover {
     scale: 1.08;
 }
+
+/* certificate */
+
+.certificate{
+    height: 25rem;
+    width: 100%;
+}
+.certificate-title{
+    height: 3rem;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 5rem;
+}
+.certificate-info{
+    height: 3rem;
+    width: 80%;
+    text-align: center;
+    color: rgb(247, 242, 236);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.75rem;
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+    margin-bottom: 2rem;
+}
+.certificate-photo{
+    height: 15rem;
+    width: 50rem;
+    position: relative;
+    left: 22rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.certificate-photo1{
+    height: 15rem;
+    width: 20rem;
+    background-image: url(certificate1.jpg);
+    background-size: cover;
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+.certificate-photo2{
+    height: 15rem;
+    width: 20rem;
+    background-image: url(certificate2.jpg);
+    background-size: cover;
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+.certificate-photo1:hover, .certificate-photo2:hover{
+    scale: 1.08
+}
