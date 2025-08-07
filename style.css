@@ -599,3 +599,60 @@
 .certificate-photo1:hover, .certificate-photo2:hover{
     scale: 1.08
 }
+
+/* 3d lamps */
+.lamp-title{
+    height: 3rem;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.lamp-info{
+    height: 3rem;
+    width: 80%;
+    text-align: center;
+    color: rgb(247, 242, 236);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.75rem;
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+    margin-bottom: 2rem;
+}
+.lamp-photo{
+    height: 15rem;
+    width: 50rem;
+    position: relative;
+    left: 22rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.lamp1{
+    height: 15rem;
+    width: 15rem;
+    background-image: url(lamp1.webp);
+    background-size: cover;
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+.lamp2{
+    height: 15rem;
+    width: 15rem;
+    background-image: url(lamp2.jpg);
+    background-size: cover;
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+.lamp3{
+    height: 15rem;
+    width: 15rem;
+    background-image: url(lamp3.jpg);
+    background-size: cover;
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+.lamp1:hover, .lamp2:hover, .lamp2:hover{
+    scale: 1.08
+}
